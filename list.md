@@ -49,7 +49,7 @@
 | Bugfix Channel Scan (Open 5 days)                                                             | Adafruit_CircuitPython_TCA9548A        | OK  |
 | change color property to use scaled color_raw values (Open 368 days)                          | Adafruit_CircuitPython_TCS34725        | OK  |
 | Add ability to print bitmaps (Open 237 days)                                                  | Adafruit_CircuitPython_Thermal_Printer | N/A |
-| Implements continuous mode (Open 303 days)                                                    | Adafruit_CircuitPython_VL53L0X         | YES |
+| Implements continuous mode (Open 303 days)                                                    | Adafruit_CircuitPython_VL53L0X         | NO  |
 | check recv size (Open 32 days)                                                                | Adafruit_CircuitPython_Wiznet5k        | NO  |
 | Add DebouncedButton (Open 183 days)                                                           | CircuitPython_Community_Bundle         | NO  |
 | Update README.rst (Open 4 days)                                                               | cookiecutter-adafruit-circuitpython    | NO  |
