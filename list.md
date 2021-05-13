@@ -25,7 +25,7 @@
 | Volume animation (Open 226 days)                                                              | Adafruit_CircuitPython_LED_Animation   | NO  |
 | Added functionality to enable/disable single tap detection (Open 243 days)                    | Adafruit_CircuitPython_LSM6DS          | OK  |
 | add the cascaded matrix support (Open 37 days)                                                | Adafruit_CircuitPython_MAX7219         | NO  |
-| Add rotation function to max7219.py (Open 125 days)                                           | Adafruit_CircuitPython_MAX7220         | YES |
+| Add rotation function to max7219.py (Open 125 days)                                           | Adafruit_CircuitPython_MAX7219         | NO  |
 | Add SPI (MCP23SXX) devices (Open 17 days)                                                     | Adafruit_CircuitPython_MCP230xx        | NO  |
 | Add INTCAP register access (Open 106 days)                                                    | Adafruit_CircuitPython_MCP230xx        | YES |
 | adding methods to setup critical/upper and lower temperatures (Open 13 days)                  | Adafruit_CircuitPython_MCP9808         | OK  |
