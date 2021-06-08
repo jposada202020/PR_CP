@@ -1,46 +1,57 @@
-| Modified ManufacturerDataField to return a namedtuple if possible (Open 132 days)             | Adafruit_CircuitPython_BLE             | NO  |
-|-----------------------------------------------------------------------------------------------|----------------------------------------|-----|
-| improving_docs (Open 16 days)                                                                 | Adafruit_CircuitPython_BNO08x          | NO  |
-| change timeout to retry count in _wait_spi_char (Open 36 days)                                | Adafruit_CircuitPython_ESP32SPI        | OK  |
-| fix .server_state() attribute name (Open 47 days)                                             | Adafruit_CircuitPython_ESP32SPI        | OK  |
-| wsgiserver: implement parse_headers (Open 181 days)                                           | Adafruit_CircuitPython_ESP32SPI        | OK  |
-| i dont know why what i did changed anything... (Open 58 days)                                 | Adafruit_CircuitPython_FONA            | NO  |
-| Update requirements (Open 8 days)                                                             | Adafruit_CircuitPython_Gizmo           | NO  |
-| Added reference to attributes from parent module in CPython (Open 21 days)                    | Adafruit_CircuitPython_hashlib         | NO  |
-| Refactor to support extra layouts (Open 55 days)                                              | Adafruit_CircuitPython_HID             | NO  |
-| Keyboard layout improvement (Open 63 days)                                                    | Adafruit_CircuitPython_HID             | NO  |
-| creating_animation_class (Open 12 days)                                                       | Adafruit_CircuitPython_HT16K33         | UNK |
-| Add keypad function - initial commit (Open 187 days)                                          | Adafruit_CircuitPython_HT16K33         | NO  |
-| Removed artifical limiting of 7x4 display (LOL) (Open 237 days)                               | Adafruit_CircuitPython_HT16K33         | NO  |
-| Implement nonblocking decoder (Open 111 days)                                                 | Adafruit_CircuitPython_IRRemote        | NO  |
-| 5x5 breakout (Open 59 days)                                                                   | Adafruit_CircuitPython_IS31FL3731      | NO  |
-| Add CODE-OF-CONDUCT and licenses from cookiecutter (Open 15 days)                             | Adafruit_CircuitPython_JTAG            | NO  |
-| correcting_measurement_units (Open 5 days)                                                    | Adafruit_CircuitPython_L3GD20          | OK  |
-| Fixed reverse mode for Comet / RainbowComet animation. (Open 10 days)                         | Adafruit_CircuitPython_LED_Animation   | NO  |
-| added sparkle mask parameter  (Open 171 days)                                                 | Adafruit_CircuitPython_LED_Animation   | NO  |
-| Timed animation (Open 226 days)                                                               | Adafruit_CircuitPython_LED_Animation   | NO  |
-| Volume animation (Open 226 days)                                                              | Adafruit_CircuitPython_LED_Animation   | NO  |
-| Added functionality to enable/disable single tap detection (Open 243 days)                    | Adafruit_CircuitPython_LSM6DS          | OK  |
-| add the cascaded matrix support (Open 37 days)                                                | Adafruit_CircuitPython_MAX7219         | NO  |
-| Add rotation function to max7219.py (Open 125 days)                                           | Adafruit_CircuitPython_MAX7219         | NO  |
-| Add SPI (MCP23SXX) devices (Open 17 days)                                                     | Adafruit_CircuitPython_MCP230xx        | NO  |
-| Add INTCAP register access (Open 106 days)                                                    | Adafruit_CircuitPython_MCP230xx        | NO  |
-| adding methods to setup critical/upper and lower temperatures (Open 13 days)                  | Adafruit_CircuitPython_MCP9808         | OK  |
-| MQTT protocol over bluetooth (Open 510 days)                                                  | Adafruit_CircuitPython_MiniMQTT        | NO  |
-| Adding property for setting the pulse width directly (Open 376 days)                          | Adafruit_CircuitPython_Motor           | NO  |
-| Code Example to store sensor data to mysql database (Open 380 days)                           | Adafruit_CircuitPython_MPU6050         | N/A |
-| fixed pca9685_servo.py example (Open 107 days)                                                | Adafruit_CircuitPython_PCA9685         | YES |
-| Create button_pio.py (Open 30 days)                                                           | Adafruit_CircuitPython_PIOASM          | NO  |
-| UART Fixes and Featrues (Open 166 days)                                                       | Adafruit_CircuitPython_PM25            | NO  |
-| accept longer ATS for ISO14443A-4 cards (Open 67 days)                                        | Adafruit_CircuitPython_PN532           | NO  |
-| Progressbar accelerometer (Open 6 days)                                                       | Adafruit_CircuitPython_ProgressBar     | OK  |
-| #28 Replaced assert() calls with if/else/raise () (Open 10 days)                              | Adafruit_CircuitPython_ProgressBar     | OK  |
-| adding simple bit and bits for SPI devices (Open 459 days)                                    | Adafruit_CircuitPython_Register        | OK  |
-| adding_references (Open 9 days)                                                               | Adafruit_CircuitPython_SHTC3           | OK  |
-| removing assert statements (Open 18 days)                                                     | Adafruit_CircuitPython_SI5351          | OK  |
-| Bugfix Channel Scan (Open 5 days)                                                             | Adafruit_CircuitPython_TCA9548A        | OK  |
-| change color property to use scaled color_raw values (Open 368 days)                          | Adafruit_CircuitPython_TCS34725        | OK  |
-| Add ability to print bitmaps (Open 237 days)                                                  | Adafruit_CircuitPython_Thermal_Printer | YES |
-| Implements continuous mode (Open 303 days)                                                    | Adafruit_CircuitPython_VL53L0X         | NO  |
-| check recv size (Open 32 days)                                                                | Adafruit_CircuitPython_Wiznet5k        | NO  |
-| Add DebouncedButton (Open 183 days)                                                           | CircuitPython_Community_Bundle         | NO  |
+| Description                                                                                   | Library                                  | HW  | Notes                                                                     |
+|-----------------------------------------------------------------------------------------------|------------------------------------------|-----|---------------------------------------------------------------------------|
+| Adding critical temp features (Open 21 days)                                                  | Adafruit_CircuitPython_ADT7410           | NO  | Wait until Scott came back from Vacations to review                       |
+| Modified ManufacturerDataField to return a namedtuple if possible (Open 132 days)             | Adafruit_CircuitPython_BLE               | NO  | BLE related. Scott came back from Vacations to review                                                                | 
+| Fix mkdir when directory is top level (Open 12 days)                                          | Adafruit_CircuitPython_BLE_File_Transfer | NO  | BLE related.                                                              |
+| [WIP] Speed up AT+BLEKEYBOARDCODE (Open 7 days)                                               | Adafruit_CircuitPython_BluefruitSPI      | YES | We would need hardware to test                                            |
+| improving_docs (Open 16 days)                                                                 | Adafruit_CircuitPython_BNO08x            | NO  | Merged                                                                    |
+| memory_reduction (Open 20 days)                                                               | Adafruit_CircuitPython_DPS310            | NO  | Wait a little longer as code is included in the Funhouse                  |
+| minor fix to size of demo box; update comments for new mono displays (Open 2 days)            | Adafruit_CircuitPython_EPD               | NO  | New, waiting MakerMelissa Answer                                          |
+| change timeout to retry count in _wait_spi_char (Open 36 days)                                | Adafruit_CircuitPython_ESP32SPI          | OK  | Tested.Waiting answer from Brent                                          | 
+| fix .server_state() attribute name (Open 47 days)                                             | Adafruit_CircuitPython_ESP32SPI          | OK  | Merged                                                                    |
+| wsgiserver: implement parse_headers (Open 181 days)                                           | Adafruit_CircuitPython_ESP32SPI          | OK  | Merged                                                                    |
+| i dont know why what i did changed anything... (Open 58 days)                                 | Adafruit_CircuitPython_FONA              | NO  | Closed                                                                    |
+| Update requirements (Open 8 days)                                                             | Adafruit_CircuitPython_Gizmo             | NO  | This is an internal work to do to have the library in Pypi                |
+| Added reference to attributes from parent module in CPython (Open 21 days)                    | Adafruit_CircuitPython_hashlib           | NO  | Proposal: Close PR                                                        |
+| Refactor to support extra layouts (Open 55 days)                                              | Adafruit_CircuitPython_HID               | NO  | Proposal. Close. Scott wants this in the community Library                |
+| Keyboard layout improvement (Open 63 days)                                                    | Adafruit_CircuitPython_HID               | NO  | Proposal. Close. Scott want this to be included in the Community Library  |
+| creating_animation_class (Open 12 days)                                                       | Adafruit_CircuitPython_HT16K33           | UNK | Waiting answer from MakerMellisa                                          |
+| Add keypad function - initial commit (Open 187 days)                                          | Adafruit_CircuitPython_HT16K33           | NO  | To close: Code is not working and people involved is not responding       |
+| Removed artifical limiting of 7x4 display (LOL) (Open 237 days)                               | Adafruit_CircuitPython_HT16K33           | NO  | Have not worked on this as Deshipu was kind in the not wanted the change  |
+| Implement nonblocking decoder (Open 111 days)                                                 | Adafruit_CircuitPython_IRRemote          | NO  | Merged                                                                    |
+| 5x5 breakout (Open 59 days)                                                                   | Adafruit_CircuitPython_IS31FL3731        | NO  | Close. have been in PR draft for two months                               |
+| Add CODE-OF-CONDUCT and licenses from cookiecutter (Open 15 days)                             | Adafruit_CircuitPython_JTAG              | NO  | Waiting answer from Kattni                                                |
+| correcting_measurement_units (Open 5 days)                                                    | Adafruit_CircuitPython_L3GD20            | OK  | Merged                                                                    |
+| Fixed reverse mode for Comet / RainbowComet animation. (Open 10 days)                         | Adafruit_CircuitPython_LED_Animation     | NO  | Kattni to work on this after                                              |
+| added sparkle mask parameter  (Open 171 days)                                                 | Adafruit_CircuitPython_LED_Animation     | NO  | Kattni to work on this after                                              |
+| Timed animation (Open 226 days)                                                               | Adafruit_CircuitPython_LED_Animation     | NO  | Kattni to work on this after                                              |
+| Volume animation (Open 226 days)                                                              | Adafruit_CircuitPython_LED_Animation     | NO  | Kattni to work on this after                                              |
+| Add Tilt-Compensated Compass Example (Open 13 days)                                           | Adafruit_CircuitPython_LSM303DLH_Mag     | NO  | Continue work on it                                                       |
+| Added functionality to enable/disable single tap detection (Open 243 days)                    | Adafruit_CircuitPython_LSM6DS            | OK  | To close, changes were requested sep 22, people involved not answering after my ping                                                                         |
+| Give the opportunity to set the polarity to 1 and not 0. (Open 12 days)                       | Adafruit_CircuitPython_MAX31865          | YES | sadly I fried my breakout. We would need hardware for this PR             | 
+| auto_convert: set/unset bias, + use in read_rtd (Open 12 days)                                | Adafruit_CircuitPython_MAX31865          | YES | sadly I fried my breakout. We would need hardware for this PR             |
+| add the cascaded matrix support (Open 37 days)                                                | Adafruit_CircuitPython_MAX7219           | YES | We will need Parts to test                                                |
+| Add rotation function to max7219.py (Open 125 days)                                           | Adafruit_CircuitPython_MAX7219           | YES | We will need part                                                         |
+| Add SPI (MCP23SXX) devices (Open 17 days)                                                     | Adafruit_CircuitPython_MCP230xx          | NO  | Proposal: in a dilemma, no hardware to test this, So I prefer this in an example than in the library                                                            |
+| Add INTCAP register access (Open 106 days)                                                    | Adafruit_CircuitPython_MCP230xx          | NO  | Merged                                                                    |
+| adding methods to setup critical/upper and lower temperatures (Open 13 days)                  | Adafruit_CircuitPython_MCP9808           | OK  | Merged                                                                    |
+| MQTT protocol over bluetooth (Open 510 days)                                                  | Adafruit_CircuitPython_MiniMQTT          | NO  | To Close, Scott and Brent suggested that this is better in a new library  |
+| Adding property for setting the pulse width directly (Open 376 days)                          | Adafruit_CircuitPython_Motor             | NO  | Close, Changes were requested 6 months ago, not answer from People after recent Ping                                                                          |
+| Code Example to store sensor data to mysql database (Open 380 days)                           | Adafruit_CircuitPython_MPU6050           | N/A | Proposal: Close, or add to community. Similar case to the Thermal Printer |
+| fixed pca9685_servo.py example (Open 107 days)                                                | Adafruit_CircuitPython_PCA9685           | YES | Merged                                                                    |
+| Create button_pio.py (Open 30 days)                                                           | Adafruit_CircuitPython_PIOASM            | NO  | Proposal. To close, there is no answer from people involved. and changes were requested                                                                          |
+| UART Fixes and Featrues (Open 166 days)                                                       | Adafruit_CircuitPython_PM25              | NO  | Re-request                                                                |
+| accept longer ATS for ISO14443A-4 cards (Open 67 days)                                        | Adafruit_CircuitPython_PN532             | YES | We would need hardware to test                                            |
+| Progressbar accelerometer (Open 6 days)                                                       | Adafruit_CircuitPython_ProgressBar       | OK  | Merged                                                                    |
+| #28 Replaced assert() calls with if/else/raise () (Open 10 days)                              | Adafruit_CircuitPython_ProgressBar       | OK  | Merged                                                                    |
+| adding simple bit and bits for SPI devices (Open 459 days)                                    | Adafruit_CircuitPython_Register          | OK  | Propose to close. Scott wants a different path, so this PR is not wanted  |
+| match rotary direction to standard rotaryio (Open 5 days)                                     | Adafruit_CircuitPython_seesaw            | OK  | New. Waiting on Danh answer                                               |
+| adding_references (Open 9 days)                                                               | Adafruit_CircuitPython_SHTC3             | OK  | Merged                                                                    |
+| removing assert statements (Open 18 days)                                                     | Adafruit_CircuitPython_SI5351            | OK  | Merged                                                                    |
+| Bugfix Channel Scan (Open 5 days)                                                             | Adafruit_CircuitPython_TCA9548A          | OK  | After discussion with jerryn, and Carter we think is ready to close       |
+| change color property to use scaled color_raw values (Open 368 days)                          | Adafruit_CircuitPython_TCS34725          | OK  | Proposal: Close, the algorithm is not right.                              |
+| Add ability to print bitmaps (Open 237 days)                                                  | Adafruit_CircuitPython_Thermal_Printer   | YES | Closed                                                                    |
+| Add motion detect feature (Open 11 days)                                                      | Adafruit_CircuitPython_VC0706            | YES | We would need hardware to test this. Still a lot of work on the code side |
+| Implements continuous mode (Open 303 days)                                                    | Adafruit_CircuitPython_VL53L0X           | NO  | Continue Working on this                                                  |
+| check recv size (Open 32 days)                                                                | Adafruit_CircuitPython_Wiznet5k          | NO  | Merged                                                                    |
+| Add DebouncedButton (Open 183 days)                                                           | CircuitPython_Community_Bundle           | NO  | Recommendation.Close PR. Functionality already present in other libraries |
