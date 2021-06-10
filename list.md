@@ -33,7 +33,6 @@
 | UART Fixes and Featrues (Open 166 days)                                                       | Adafruit_CircuitPython_PM25              | NO  | Re-request                                                                |
 | accept longer ATS for ISO14443A-4 cards (Open 67 days)                                        | Adafruit_CircuitPython_PN532             | YES | We would need hardware to test                                            |
 | adding simple bit and bits for SPI devices (Open 459 days)                                    | Adafruit_CircuitPython_Register          | OK  | Propose to close. Scott wants a different path, so this PR is not wanted  |
-| match rotary direction to standard rotaryio (Open 5 days)                                     | Adafruit_CircuitPython_seesaw            | OK  | New. Waiting on Danh answer                                               |
 | Bugfix Channel Scan (Open 5 days)                                                             | Adafruit_CircuitPython_TCA9548A          | OK  | After discussion with jerryn, and Carter we think is ready to close       |
 | change color property to use scaled color_raw values (Open 368 days)                          | Adafruit_CircuitPython_TCS34725          | OK  | Proposal: Close, the algorithm is not right.                              |
 | Add motion detect feature (Open 11 days)                                                      | Adafruit_CircuitPython_VC0706            | YES | We would need hardware to test this. Still a lot of work on the code side |
